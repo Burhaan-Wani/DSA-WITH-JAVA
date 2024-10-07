@@ -3,7 +3,7 @@ package recursion;
 public class ClimbingStairsProblem {
     public static void main(String[] args) {
         int[] cost = { 10, 15, 20 };
-        System.out.println(climbingStairsProblem(0, cost));
+        System.out.println(Math.min(climbingStairsProblem(0, cost), climbingStairsProblem(1, cost)));
     }
 
     public static int climbingStairsProblem(int idx, int[] cost) {
