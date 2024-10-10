@@ -7,7 +7,7 @@ public class SubsetOfArraysProblem {
         ArrayList<ArrayList<Integer>> res = new ArrayList<>();
         ArrayList<Integer> curr = new ArrayList<>();
 
-        int[] arr = { 1, 2, 3, 4 };
+        int[] arr = { 1, 2, 3 };
         subsetOfArraysProblem(0, arr, res, curr);
 
         System.out.println(res);
