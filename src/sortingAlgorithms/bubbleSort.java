@@ -36,7 +36,7 @@ public class bubbleSort {
                     swapped = true;
                 }
             }
-            if (swapped == true) {
+            if (!swapped) {
                 return;
             }
         }
